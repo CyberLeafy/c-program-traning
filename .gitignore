@@ -1,0 +1,6 @@
+# C build files
+*.out
+a.out
+*.o
+main
+main.o
