@@ -4,3 +4,4 @@ a.out
 *.o
 main
 main.o
+*.exe
