@@ -1,0 +1,9 @@
+Dynamic memory is requested at runtime and is useful when size is not known in advance.
+
+malloc(bytes) allocates uninitialized memory.
+
+colloc(count, size) allocates meomory and initalizes all bytes to zero.
+
+relloc(ptr, new_size) resizes an allocation; it may move the block.
+
+free(ptr) releases allocated momory. Never use this block after freeing it.
