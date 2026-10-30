@@ -16,6 +16,6 @@ int main(){
 
     free(a);
     a = NULL;
-    printf("Success");
+    printf("Success ");
     return 0;
 }
