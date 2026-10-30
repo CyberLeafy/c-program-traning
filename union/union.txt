@@ -1,0 +1,11 @@
+**UNION
+
+A union lets diffrent  members share the same memory location.
+
+Typically, its size is at least the size of its largest members,it alignements requirements.
+
+Only one members's stored value should be treated as active at a time.
+
+Writting one member an reading an unrealated member is not a portable type-conversion technique.
+
+Use a tagged union: store a seprate tag that recordshich member is active.
